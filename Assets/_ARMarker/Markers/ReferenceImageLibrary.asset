@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 9391354748848157218
       m_GuidHigh: 5319484141411966762
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.024, y: 0.02432}
+    m_SpecifySize: 1
     m_Name: MarkerBunny
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -33,8 +33,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 1541461848821903896
       m_GuidHigh: 12823863639465678123
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.024, y: 0.024}
+    m_SpecifySize: 1
     m_Name: MarkerCow
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -43,8 +43,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 8882366257553377783
       m_GuidHigh: 1022576610444800376
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.024, y: 0.02431579}
+    m_SpecifySize: 1
     m_Name: MarkerFrog
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -53,8 +53,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 1951415446111820257
       m_GuidHigh: 14352862411137782827
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.024, y: 0.0256}
+    m_SpecifySize: 1
     m_Name: MarkerMouse
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -63,7 +63,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 17993109229685605102
       m_GuidHigh: 5724591378300010745
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.067, y: 0.067}
+    m_SpecifySize: 1
     m_Name: MarkerIcons01
     m_Texture: {fileID: 0}

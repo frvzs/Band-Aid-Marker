@@ -7,12 +7,12 @@ public class ChangeScene : MonoBehaviour
 {
    public void MoveToScene(int sceneID)
     {
-        _ShowAndroidToastMessage("Changing To Main Menu...");
+        AndroidToastMessage("Changing To Main Menu...");
         Debug.Log("Changing To Main Menu");
         SceneManager.LoadScene(sceneID);
         
     }
-    private void _ShowAndroidToastMessage(string message)
+    private void AndroidToastMessage(string message)
     {
         AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject unityActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");

@@ -24,8 +24,10 @@ public class UI : MonoBehaviour
         toggle4 = root.Q<Toggle>("toggle4");
         toggle5 = root.Q<Toggle>("toggle5");
         Button buttonScene = root.Q<Button>("button3");
+        Button Rescue = root.Q<Button>("RescueButton");
         Debug.Log(toggle1.value);
         buttonScene.clicked += () => TaskOnClick();
+        Rescue.clicked += () => Application.OpenURL("tel:1234567890");
 
     }
     void TaskOnClick()
@@ -33,16 +35,16 @@ public class UI : MonoBehaviour
         if (toggle1.value == true && toggle2.value == true && toggle3.value == true && toggle4.value == true && toggle5.value == true )
         {
             MoveToScene(1);
-            _ShowAndroidToastMessage("Changing to AR...");
+            AndroidToastMessage("Changing to AR...");
             Debug.Log("Changing to AR");
         }
         else
         {
             Debug.Log("First complete all the steps !");
-            _ShowAndroidToastMessage("Please complete and check all the steps!");
+            AndroidToastMessage("Please complete and check all the steps!");
         }
     }
-    private void _ShowAndroidToastMessage(string message)
+    private void AndroidToastMessage(string message)
     {
         AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject unityActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");

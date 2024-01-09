@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: ee11b309ee44d0747821dbf0542efdf5,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 771a8146a68487246aeba46116c644b7,
+  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 1973a7d138dd0324b89c62974b859e3b,
     type: 3}
 --- !u!114 &813755695
 MonoBehaviour:
@@ -2062,7 +2062,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: ee11b309ee44d0747821dbf0542efdf5,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 1973a7d138dd0324b89c62974b859e3b,
+  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 60a3c10af1df12142902824b7f848426,
     type: 3}
 --- !u!114 &1599992216
 MonoBehaviour:
@@ -2129,7 +2129,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: ee11b309ee44d0747821dbf0542efdf5,
     type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 60a3c10af1df12142902824b7f848426,
+  m_TrackedImagePrefab: {fileID: 2497054893589054572, guid: 771a8146a68487246aeba46116c644b7,
     type: 3}
 --- !u!114 &1671424140
 MonoBehaviour:

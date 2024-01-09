@@ -137,10 +137,10 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1.0
   preloadedAssets:
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
-  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   - {fileID: 7409956309476867576, guid: 3fd4fc0127790db4bae83f7b77da8d45, type: 2}
   - {fileID: 11400000, guid: fd57837ab94e00e44925198b266bf65b, type: 2}
+  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -392,8 +392,8 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures:
-      - {fileID: 2800000, guid: 2a4587b2c1b6c7e4e9b14d3bd3683feb, type: 3}
-      - {fileID: 2800000, guid: 2a4587b2c1b6c7e4e9b14d3bd3683feb, type: 3}
+      - {fileID: 0}
+      - {fileID: 2800000, guid: 1656a1c62baecd04fbdd4c28b121540a, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
@@ -423,8 +423,7 @@ PlayerSettings:
       m_Height: 81
       m_Kind: 2
       m_SubKind: 
-    - m_Textures:
-      - {fileID: 2800000, guid: 2a4587b2c1b6c7e4e9b14d3bd3683feb, type: 3}
+    - m_Textures: []
       m_Width: 192
       m_Height: 192
       m_Kind: 1
@@ -455,7 +454,7 @@ PlayerSettings:
       m_Kind: 1
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: 2a4587b2c1b6c7e4e9b14d3bd3683feb, type: 3}
+      - {fileID: 2800000, guid: 1656a1c62baecd04fbdd4c28b121540a, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 0

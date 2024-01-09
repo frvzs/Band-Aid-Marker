@@ -34,10 +34,11 @@ public class UI : MonoBehaviour
         {
             MoveToScene(1);
             _ShowAndroidToastMessage("Changing to AR...");
+            Debug.Log("Changing to AR");
         }
         else
         {
-            //Debug.Log("First complete all the steps !");
+            Debug.Log("First complete all the steps !");
             _ShowAndroidToastMessage("Please complete and check all the steps!");
         }
     }

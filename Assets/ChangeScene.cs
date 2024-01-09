@@ -7,7 +7,8 @@ public class ChangeScene : MonoBehaviour
 {
    public void MoveToScene(int sceneID)
     {
-        _ShowAndroidToastMessage("Changing Scene...");
+        _ShowAndroidToastMessage("Changing To Main Menu...");
+        Debug.Log("Changing To Main Menu");
         SceneManager.LoadScene(sceneID);
         
     }
